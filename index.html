@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daves Fish Room</title>
+    <meta name="description" content="Historical Sites &amp; More">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="background"> <br>
+          <h1 class="subheading">Daves Fish Room</h1>
+          <br>
+          <h2 class="subheading2">A Fishy Time!</h2>
+          <div class="gallery-container">
+            <div class="full-width"> <img class="scale-img" src="assets/1.jpg" alt="Blue Acara Fish Looking out the aquarium for some food">
+              <div class="gallery-gradient"> <a href="#">Blue Acara<br><div class="smalltext"><caption>he blue acara is a very colorful freshwater fish in the Cichlid family. This fish can be found in various freshwater habitats, ranging from standing water to flowing streams, in Venezuela and Trinidad.</caption></div> </div></a>
+            </div>
+            <div class="vertical-gallery-container">
+              <div class="small-top-left"> <img class="scale-img" src="assets/2.jpg" alt="Otocinclus sucker fish eating some algae off of a pebble ">
+                <div class="gallery-gradient"> <a>Otocinclus<br><div class="smalltext"><caption>Otocinclus is a genus of catfish in the family Loricariidae native to South America.</caption></div> </div></a>
+              </div>
+              <div class="small-bottom-left"> <img class="scale-img" src="assets/3.jpg" alt="Close up of a Neocaridina Shrimp grazing on a plant leaf with algae on it">
+                <div class="gallery-gradient"> <a>Neocaridina Shrimp<br><div class="smalltext"><caption>Neocaridina davidi is a freshwater shrimp from Taiwan which is commonly kept in aquaria.</caption></div> </div></a>
+              </div>
+            </div>
+            <div class="tall"> <img class="scale-img" src="assets/4.jpg"alt="2 Corydoras Habrosus hanging out together on the sand">
+              <div class="gallery-gradient"> <a>Corydoras habrosus<br><div class="smalltext"><caption>The Salt and Pepper Cory (Corydoras habrosus) is one of the three pygmy corydoras species.</caption></div></a>
+              </div>
+            </div>
+            <div class="full-width"> <img class="scale-img" src="assets/6.jpg"alt="A beautiful Blue/Purple Honduran Red Point showing off its colors">
+              <div class="gallery-gradient"> <a>HRP/Hybrid Cichlid<br><div class="smalltext"><caption>The Honduran Red Point (Archocentrus sp. "honduran red point") is a fish species, endemic to the Rio Danli. The Honduran Red Point is relatively peaceful in comparison to the Convict Cichlid (Amatitlania nigrofasciata).</caption> </div> </div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="socialmedia"> <a href="https://www.facebook.com/BahariAquatics" target="_blank" title="Facebook"> 
+          <i class="fa fa-facebook"></i> </a><a href="#" target="_blank" title="Twitter">
+          <i class="fa fa-twitter"></i> </a> <a href="https://www.instagram.com/canadianfishdude/" target="_blank" title="Instagram">
+          <i class="fa fa-instagram" aria-hidden="true"></i> </a> 
+          <a href="#" target="_blank" title="LinkedIn"> <i class="fa fa-linkedin"></i> </a>
+      </div>
+    </footer>
+		<script>
+	function onKonamiCode(fn) {
+	var codes = (function(){
+			var c = [38,38,40,40,37,39,37,39,66,65];
+			onKonamiCode.requireEnterKey && c.push(13);
+			return c;
+		})(),
+		expecting = function(){
+			expecting.codes = expecting.codes || Array.apply({}, codes);
+			expecting.reset = function() { expecting.codes = null; };
+			return expecting.codes;
+		},
+		handler = function(e) {
+			if (expecting()[0] == (e||window.event).keyCode) {
+				expecting().shift();
+				if (!expecting().length) {
+					expecting.reset();
+					fn();
+				}
+			} else { expecting.reset(); }
+		};
+	window.addEventListener ?
+		window.addEventListener('keydown', handler, false)
+		: document.attachEvent('onkeydown', handler);
+}
+onKonamiCode.requireEnterKey = false;
+onKonamiCode(function(){
+    alert("You found my secret!!")
+	alert("redirecting to youtube channel")
+	window.location="https://www.youtube.com/channel/UCJrD8bx84lXOJF8_GusMbgQ";
+});
+	</script>
+  </body>
+</html>
